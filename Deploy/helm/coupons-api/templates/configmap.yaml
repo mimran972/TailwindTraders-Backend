@@ -1,7 +1,7 @@
 {{- $name := include "tt-coupons.fullname" . -}}
 {{- $imagebaseurl := .Values.inf.storage.couponimage -}}
 {{- $collection := .Values.inf.db.coupons.collection -}}
-{{ $constr := include "tt-coupons-constr" . -}}
+{{- $constr := include "tt-coupons-constr" . -}}
 
 apiVersion: v1
 kind: ConfigMap
